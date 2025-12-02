@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Floating Contact Widget</title>
+
+    <style>
+        .contact-widget {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #e4b004; 
+            color: rgb(10, 10, 10);
+            padding: 15px 20px;
+            border-radius: 20px;
+            border: 5px solid #003d99;
+            z-index: 1000;
+            width: 250px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.3);
+            transition: background-color 0.3s ease;
+            font-family: Arial, sans-serif;
+        }
+
+        .contact-widget:hover {
+            background-color: #0056d6; 
+        }
+
+        .contact-widget a {
+            color: rgb(5, 5, 5);
+            text-decoration: none;
+        }
+
+        .contact-widget a:hover {
+            text-decoration: underline;
+        }
+    </style>
+
+</head>
+<body>
+
+    <div class="contact-widget">
+        <strong>Contact Us</strong><br>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZAMa-Ry2rCC_UQEswjuMc5kJIHws6PfkHYQ&s" alt="telephone" height="25px" weidth="25px"> <a href="tel:+8801700650275">+8801700650275</a><br><br>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMQVOhkY07DuepgETlRqDHFmm6JqbqippsJQ&s" alt= "message" height="25px" weidth="25px"> <a href="mailto:support@example.com">support@example.com</a>
+    </div>
+
+    <p style="margin: 50px;">
+        We're Here to Help!
+        Reach us instantly for support.
+    </p>
+
+</body>
+</html>
