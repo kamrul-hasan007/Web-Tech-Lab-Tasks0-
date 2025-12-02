@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Smart Registration Form</h1>
+
+        <form id="registration-form">
+            <label for="user-type">Select User Type:</label>
+            <select id="user-type">
+                <option value="">-- Select --</option>
+                <option value="student">Student</option>
+                <option value="teacher">Teacher</option>
+            </select>
+
+            <div id="id-container" class="input-group">
+                <label for="user-id">ID:</label>
+                <input type="text" id="user-id" placeholder="Enter ID">
+            </div>
+
+            <div id="dept-container" class="input-group">
+                <label for="department">Department:</label>
+                <input type="text" id="department" placeholder="Enter Department">
+            </div>
+
+            <button type="submit">Register</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
