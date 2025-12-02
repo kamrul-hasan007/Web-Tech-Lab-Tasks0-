@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Admission Form</title>
+</head>
+<body>
+    <h2>University Admission Form</h2>
+    <form>
+        <fieldset>
+            <legend>Personal Information</legend>
+
+            <label for="name">FullName:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email-Address:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="dob">Date-of-birth:</label><br>
+            <input type="date" id="dob" name="dob" required><br><br>
+
+            <label for="gender">Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="male" required>male<br>
+            <input type="radio" id="female" name="gender" value="female" required>female<br>
+        </fieldset><br>
+        <fieldset>
+            <legend>Academic Information</legend>
+            <label for="hsc">HSC Result:</label><br>
+            <input type="text" id="hsc" name="hsc" required><br><br>
+            <label for="ssc">SSC Result:</label><br>
+            <input type="text" id="ssc" name="ssc" required><br><br>
+
+            <label for="department">Prefered Depeartment:</label><br>
+            <select id="department" name="department" required>
+                <option value="">--Select Department--</option>
+                <option value="CSE">CSE</option>
+                <option value="EEE">EEE</option>
+                <option value="BBA">BBA</option>
+                <option value="IPE">IPE</option>
+            </select><br><br>
+
+            <p>Interests(Choose more than one if needed):</p>
+            
+            <input type="checkbox" id="sports" name="interest" value="Sports">Sports<br>
+            <input type="checkbox" id="music" name="interest" value="Music">Music<br>
+            <input type="checkbox" id="Tech" name="interest" value="Tech">Tech<br>
+
+            
+        </fieldset><br>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+</html>
